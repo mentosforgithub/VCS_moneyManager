@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categories">
+        <item>Food</item>
+        <item>Traffic</item>
+        <item>HealthCare</item>
+        <item>Clothes</item>
+        <item>Entertainment</item>
+        <item>Education</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="currencies">
+        <item>USD($)</item>
+        <item>CNY(¥)</item>
+        <item>ECU(€)</item>
+        <item>JPY(¥)</item>
+        <item>GBP(£)</item>
+    </string-array>
+</resources>
