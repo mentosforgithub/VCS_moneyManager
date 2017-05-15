@@ -1,0 +1,193 @@
+<!--<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--tools:context="com.example.ljr.myapplication.Home"-->
+<!--android:id="@+id/container">-->
+
+
+<!--<LinearLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical">-->
+
+<!--<TextView-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="120dp"-->
+<!--android:gravity="center"-->
+<!--android:text="Balance"-->
+
+<!--android:textColorLink="?attr/actionModeSplitBackground"-->
+<!--android:textSize="48sp"-->
+<!--android:textStyle="normal|bold" />-->
+
+<!--<LinearLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="40dp"-->
+<!--android:orientation="horizontal"-->
+<!--android:weightSum="4">-->
+
+<!--<ImageView-->
+<!--android:layout_width="0dp"-->
+<!--android:layout_height="match_parent"-->
+<!--android:layout_weight="1"-->
+<!--android:src="@drawable/ic_account_balance_wallet_black_24px" />-->
+
+<!--<Spinner-->
+<!--android:layout_width="0dp"-->
+<!--android:layout_height="match_parent"-->
+<!--android:layout_weight="3"-->
+<!--android:id="@+id/spinner_home"></Spinner>-->
+
+<!--</LinearLayout>-->
+
+<!--<TextView-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="40dp" />-->
+
+<!--<LinearLayout-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="80dp"-->
+<!--android:orientation="horizontal"-->
+<!--android:weightSum="5">-->
+
+<!--<ImageView-->
+<!--android:layout_width="0dp"-->
+<!--android:layout_height="80dp"-->
+<!--android:layout_weight="1"-->
+<!--android:src="@drawable/ic_attach_money_black_24px" />-->
+
+<!--<TextView-->
+<!--android:layout_width="0dp"-->
+<!--android:layout_height="80dp"-->
+<!--android:layout_weight="4"-->
+<!--android:gravity="center"-->
+<!--android:text="0.00"-->
+<!--android:textSize="50sp"-->
+<!--android:id="@+id/home_money" />-->
+
+<!--</LinearLayout>-->
+
+<!--<ScrollView-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="150dp">-->
+
+<!--<Button-->
+<!--android:id="@+id/record"-->
+<!--android:layout_width="150dp"-->
+<!--android:layout_height="50dp"-->
+<!--android:layout_gravity="center"-->
+<!--android:text="Record" />-->
+<!--</ScrollView>-->
+
+<!--</LinearLayout>-->
+
+<!--</FrameLayout>-->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.example.hment.myapplication.Fragments.Home"
+    android:id="@+id/container">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="190dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/money"/>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.06"
+            android:gravity="center"
+            android:text="@string/balance_home"
+            android:textColor="@android:color/black"
+            android:textSize="48sp"
+            android:textStyle="normal|bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:weightSum="4"
+            android:layout_weight="0.14">
+
+            <ImageView
+                android:layout_width="86dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/card" />
+
+            <Spinner
+                android:id="@+id/spinner_home"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.38"
+                ></Spinner>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:layout_weight="0.09" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+            <ImageView
+                android:layout_width="66dp"
+                android:layout_height="50dp"
+                android:src="@drawable/dollor"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="0.35" />
+
+            <TextView
+                android:id="@+id/home_money"
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_weight="4"
+                android:gravity="center"
+                android:hint="0.00"
+                android:textSize="50sp"
+                android:textColor="@android:color/black"/>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <Button
+                android:id="@+id/record"
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@color/btn_green"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="@string/make_activity" />
+        </ScrollView>
+
+    </LinearLayout>
+</FrameLayout>

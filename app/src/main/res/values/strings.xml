@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Money Manager</string>
+
+    <!-- Button Text -->
+    <string name="add_account">Add an Account</string>
+    <string name="action_delete">DELETE</string>
+
+    <!-- Account Labels -->
+    <string name="card_name">Card Name</string>
+    <string name="cardholder_name">Cardholder Name</string>
+    <string name="balance">Balance</string>
+
+    <!-- Stats Labels -->
+    <string name="outcome_label">OUTCOME</string>
+    <string name="income_label">INCOME</string>
+
+    <!-- Toolbar -->
+    <string name="action_save">SAVE</string>
+    <string name="action_logout">Logout</string>
+
+
+    <string name="expense">Expense</string>
+    <string name="cancel">Cancel</string>
+    <string name="income">Income</string>
+    <string name="account">Account</string>
+    <string name="category">Category</string>
+    <string name="balance_home">Balance</string>
+    <string name="make_activity">Make Activity</string>
+    <string name="manage_your_accounts">Manage Your Accounts</string>
+
+    <!--Navigation Bar-->
+    <string name="home">Home</string>
+    <string name="detail">Detail</string>
+    <string name="stats">Stats</string>
+
+</resources>
