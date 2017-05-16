@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/account_item"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_left_small">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/account_id"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:visibility="gone"/>
+
+        <ImageButton
+            android:id="@+id/card_sign"
+            android:layout_width="@dimen/label_btn_size"
+            android:layout_height="@dimen/label_btn_size"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_credit_card_black_18px"
+            android:background="?attr/selectableItemBackground"/>
+
+        <TextView
+            android:id="@+id/card_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="@dimen/padding_left_small"
+            tools:text="PNC Debit Card"/>
+
+        <ImageButton
+            android:id="@+id/edit_account_btn"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_mode_edit_black_18px"
+            android:background="?attr/selectableItemBackground"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/dollar_sign"
+            android:layout_width="@dimen/label_btn_size"
+            android:layout_height="@dimen/label_btn_size"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_attach_money_black_18px"
+            android:background="?attr/selectableItemBackground"/>
+
+        <TextView
+            android:id="@+id/balance"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="@dimen/padding_left_small"
+            tools:text="2000"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

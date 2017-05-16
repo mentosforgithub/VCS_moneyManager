@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--Colors for Pie Chart-->
+    <color name="cate_food">#efb062</color>
+    <color name="cate_traffic">#a7f78c</color>
+    <color name="cate_health">#70a5f9</color>
+    <color name="cate_clothes">#f78c9c</color>
+    <color name="cate_entertainment">#ce9bdb</color>
+    <color name="cate_education">#506b6b</color>
+    <color name="cate_other">#bec4c4</color>
+
+    <color name="white">#ffffff</color>
+    <color name="btn_green">#00C853</color>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">记帐本</string>
+
+    <!-- Button Text -->
+    <string name="add_account">添加账户</string>
+    <string name="action_delete">删除</string>
+
+    <!-- Account Labels -->
+    <string name="card_name">账户名称</string>
+    <string name="cardholder_name">账户持有者</string>
+    <string name="balance">余额</string>
+
+    <!-- Stats Labels -->
+    <string name="outcome_label">支出</string>
+    <string name="income_label">收入</string>
+
+    <!-- Toolbar -->
+    <string name="action_save">保存</string>
+    <string name="action_logout">登出</string>
+
+    <string name="expense">支出</string>
+    <string name="cancel">取消</string>
+    <string name="income">收入</string>
+    <string name="account">账户</string>
+    <string name="category">类别</string>
+    <string name="balance_home">余额</string>
+    <string name="make_activity">记一笔</string>
+    <string name="manage_your_accounts">管理你的账户</string>
+
+    <!--Navigation Bar-->
+    <string name="home">主页</string>
+    <string name="detail">明细</string>
+    <string name="stats">统计</string>
+
+    <!--Spinner-->
+    <string-array name="categories">
+        <item>食物</item>
+        <item>交通</item>
+        <item>健康</item>
+        <item>衣物</item>
+        <item>娱乐</item>
+        <item>教育</item>
+        <item>其它</item>
+    </string-array>
+    <string-array name="currencies">
+        <item>USD($)</item>
+        <item>CNY(¥)</item>
+        <item>ECU(€)</item>
+        <item>JPY(¥)</item>
+        <item>GBP(£)</item>
+    </string-array>
+</resources>
